@@ -12,9 +12,28 @@ namespace WebApi_Net60.Services
         {
             Pizzas = new List<Pizza>()
             {
-                new Pizza {Id = 1, Name = "Classic Italian", IsGlutenFree = false },
-                new Pizza {Id = 2, Name = "Veggie", IsGlutenFree = true },
-                new Pizza {Id = 3, Name = "Pepperoni special Meatlover", IsGlutenFree = true },
+                new Pizza {
+                    Id = 1,
+                    Name = "Classic Italian",
+                    IsGlutenFree = false,
+                    Ingredients = new List<Ingredients> {},
+                    Image = "https://tinyurl.com/22pa66bj"
+                },
+                new Pizza {
+                    Id = 2, 
+                    Name = "Veggie", 
+                    IsGlutenFree = true,
+                    Ingredients = new List<Ingredients> {},
+                    Image = "https://tinyurl.com/4hnxnu3r"
+
+                },
+                new Pizza {
+                    Id = 3, 
+                    Name = "Pepperoni special Meatlover", 
+                    IsGlutenFree = true,
+                    Ingredients = new List<Ingredients> {},
+                    Image = "https://tinyurl.com/3kfaassu"
+                },
             };
         }
         #endregion
