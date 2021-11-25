@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi-Net60", "WebApi-Net60.csproj", "{AC960757-9BF7-452F-ABE6-E2DF36CB5C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi", "PizzaApi.csproj", "{AC960757-9BF7-452F-ABE6-E2DF36CB5C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
