@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApi_Net60.Models;
+namespace PizzaApi.Models;
 
 public class Pizza
 {

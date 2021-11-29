@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "WebApi_Net60": {
+    "PizzaApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

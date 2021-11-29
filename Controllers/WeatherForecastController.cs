@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApi_Net60.Controllers;
+namespace PizzaApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]

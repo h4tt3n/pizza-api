@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApi_Net60.Context;
-using WebApi_Net60.Models;
-using WebApi_Net60.Services;
+using PizzaApi.Context;
+using PizzaApi.Models;
+using PizzaApi.Services;
 
-namespace WebApi_Net60.Controllers
+namespace PizzaApi.Controllers
 {
     [Route("[controller]")]
     [ApiController]

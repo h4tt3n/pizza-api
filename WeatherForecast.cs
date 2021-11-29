@@ -1,4 +1,4 @@
-namespace WebApi_Net60;
+namespace PizzaApi;
 
 public class WeatherForecast
 {

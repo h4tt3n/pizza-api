@@ -1,4 +1,4 @@
-﻿namespace WebApi_Net60.Migrations
+﻿namespace PizzaApi.Migrations
 {
     using System;
     using System.Data.Entity;

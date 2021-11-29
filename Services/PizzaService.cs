@@ -1,6 +1,6 @@
-﻿using WebApi_Net60.Models;
+﻿using PizzaApi.Models;
 
-namespace WebApi_Net60.Services
+namespace PizzaApi.Services
 {
     public static class PizzaService
     {

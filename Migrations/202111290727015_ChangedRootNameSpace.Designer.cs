@@ -7,13 +7,13 @@ namespace PizzaApi.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class UpdatedPizzaServiceGetAll : IMigrationMetadata
+    public sealed partial class ChangedRootNameSpace : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(UpdatedPizzaServiceGetAll));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ChangedRootNameSpace));
         
         string IMigrationMetadata.Id
         {
-            get { return "202111270953208_UpdatedPizzaServiceGetAll"; }
+            get { return "202111290727015_ChangedRootNameSpace"; }
         }
         
         string IMigrationMetadata.Source

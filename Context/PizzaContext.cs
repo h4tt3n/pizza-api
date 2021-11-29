@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using WebApi_Net60.Models;
+using PizzaApi.Models;
 
-namespace WebApi_Net60.Context;
+namespace PizzaApi.Context;
 
 public class PizzaContext : DbContext
 {

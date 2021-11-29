@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class UpdatedPizzaServiceGetAll : DbMigration
+    public partial class ChangedRootNameSpace : DbMigration
     {
         public override void Up()
         {

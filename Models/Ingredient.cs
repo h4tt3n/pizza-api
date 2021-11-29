@@ -1,4 +1,4 @@
-﻿namespace WebApi_Net60.Models
+﻿namespace PizzaApi.Models
 {
     public class Ingredient
     {
