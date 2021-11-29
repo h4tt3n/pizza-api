@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApi_Net60.Context;
 using WebApi_Net60.Models;
 using WebApi_Net60.Services;
 
@@ -16,7 +17,27 @@ namespace WebApi_Net60.Controllers
 
         // Get all Actions
         [HttpGet]
-        public ActionResult<List<Pizza>> GetAll() => PizzaService.GetAll();
+        public ActionResult<List<Pizza>> GetAll()
+        {
+            var pizzas = PizzaService.GetAll();
+
+            using (var context = new PizzaContext())
+            {
+                var query = from p in context.Pizzas
+                            orderby p.Name
+                            select p;
+
+                foreach (var pizza in pizzas)
+                {
+                    if (!query.Select(p => p.Id).Any(p => p == pizza.Id))
+                    {
+                        context.Pizzas?.Add(pizza);
+                    }
+                }
+                context.SaveChanges();
+            }
+            return PizzaService.GetAll();
+        }
 
         // Get by id
         [HttpGet("{id}")]
